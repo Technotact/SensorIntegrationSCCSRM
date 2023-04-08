@@ -1,0 +1,292 @@
+void setup() {
+  pinMode(3,OUTPUT);
+  pinMode(4,OUTPUT);
+  pinMode(5,OUTPUT);
+  pinMode(6,OUTPUT);
+  pinMode(7,OUTPUT);
+  pinMode(8,OUTPUT);
+  pinMode(9,OUTPUT);
+  pinMode(10,OUTPUT);
+  pinMode(11,OUTPUT);
+  pinMode(A1,INPUT);
+  pinMode(A3,INPUT);
+  pinMode(12,OUTPUT);
+  pinMode(13,OUTPUT);
+
+}
+
+void loop() {
+  int n=analogRead(A1);
+  int m=analogRead(A3);
+  delay(600);
+
+  if(n>790){
+    tone(3,900,400);
+  }else if(n>800){
+    tone(3,900,350);
+  }else if(n>810){
+    tone(3,900,300);
+  }else if(n>820){
+    tone(3,900,260);
+  }else if(n>828){
+    tone(3,900,230);
+  }else if(n>837){
+    tone(3,900,200);
+  }else if(n>845){
+    tone(3,900,150);
+  }else if(n>850){
+    tone(3,900,110);
+  }else if(n>855){
+    tone(3,900,60);
+  }else(){
+    tone(3,900,30);
+  }
+  delay(200);
+  if(m<1025){
+    digitalWrite(4,HIGH);
+    delay(300);
+    digitalWrite(4,LOW);
+    delay(220);   
+  }else if(m<1020){
+    digitalWrite(4,HIGH);
+    delay(300);
+    digitalWrite(4,LOW);
+    delay(220);   
+    digitalWrite(5,HIGH);
+    delay(300);
+    digitalWrite(5,LOW);
+    delay(220);   
+
+  }else if(m<1015){
+    digitalWrite(4,HIGH);
+    delay(300);
+    digitalWrite(4,LOW);
+    delay(220);   
+    digitalWrite(5,HIGH);
+    delay(300);
+    digitalWrite(5,LOW);
+    delay(220);
+    digitalWrite(6,HIGH);
+    delay(300);
+    digitalWrite(6,LOW);
+    delay(220);          
+
+  }else if(m<1010){
+    digitalWrite(4,HIGH);
+    delay(300);
+    digitalWrite(4,LOW);
+    delay(220);   
+    digitalWrite(5,HIGH);
+    delay(300);
+    digitalWrite(5,LOW);
+    delay(220);
+    digitalWrite(6,HIGH);
+    delay(300);
+    digitalWrite(6,LOW);
+    delay(220);
+    digitalWrite(7,HIGH);
+    delay(300);
+    digitalWrite(7,LOW);
+    delay(220);          
+  }else if(m<1005){
+    digitalWrite(4,HIGH);
+    delay(300);
+    digitalWrite(4,LOW);
+    delay(220);   
+    digitalWrite(5,HIGH);
+    delay(300);
+    digitalWrite(5,LOW);
+    delay(220);
+    digitalWrite(6,HIGH);
+    delay(300);
+    digitalWrite(6,LOW);
+    delay(220);
+    digitalWrite(7,HIGH);
+    delay(300);
+    digitalWrite(7,LOW);
+    delay(220);
+    digitalWrite(8,HIGH);
+    delay(300);
+    digitalWrite(8,LOW);
+    delay(220);             
+  }else if(m<1000){
+    digitalWrite(4,HIGH);
+    delay(300);
+    digitalWrite(4,LOW);
+    delay(220);   
+    digitalWrite(5,HIGH);
+    delay(300);
+    digitalWrite(5,LOW);
+    delay(220);
+    digitalWrite(6,HIGH);
+    delay(300);
+    digitalWrite(6,LOW);
+    delay(220);
+    digitalWrite(7,HIGH);
+    delay(300);
+    digitalWrite(7,LOW);
+    delay(220);
+    digitalWrite(8,HIGH);
+    delay(300);
+    digitalWrite(8,LOW);
+    delay(220);   
+    digitalWrite(9,HIGH);
+    delay(300);
+    digitalWrite(9,LOW);
+    delay(220);          
+  }else if(m<995){
+    digitalWrite(4,HIGH);
+    delay(300);
+    digitalWrite(4,LOW);
+    delay(220);   
+    digitalWrite(5,HIGH);
+    delay(300);
+    digitalWrite(5,LOW);
+    delay(220);
+    digitalWrite(6,HIGH);
+    delay(300);
+    digitalWrite(6,LOW);
+    delay(220);
+    digitalWrite(7,HIGH);
+    delay(300);
+    digitalWrite(7,LOW);
+    delay(220);
+    digitalWrite(8,HIGH);
+    delay(300);
+    digitalWrite(8,LOW);
+    delay(220);   
+    digitalWrite(9,HIGH);
+    delay(300);
+    digitalWrite(9,LOW);
+    delay(220);
+    digitalWrite(10,HIGH);
+    delay(300);
+    digitalWrite(10,LOW);
+    delay(220);          
+  }else if(m<990){
+    digitalWrite(4,HIGH);
+    delay(300);
+    digitalWrite(4,LOW);
+    delay(220);   
+    digitalWrite(5,HIGH);
+    delay(300);
+    digitalWrite(5,LOW);
+    delay(220);
+    digitalWrite(6,HIGH);
+    delay(300);
+    digitalWrite(6,LOW);
+    delay(220);
+    digitalWrite(7,HIGH);
+    delay(300);
+    digitalWrite(7,LOW);
+    delay(220);
+    digitalWrite(8,HIGH);
+    delay(300);
+    digitalWrite(8,LOW);
+    delay(220);   
+    digitalWrite(9,HIGH);
+    delay(300);
+    digitalWrite(9,LOW);
+    delay(220);
+    digitalWrite(10,HIGH);
+    delay(300);
+    digitalWrite(10,LOW);
+    delay(220);
+    digitalWrite(11,HIGH);
+    delay(300);
+    digitalWrite(11,LOW);
+    delay(220);          
+  }else if(m<985){
+    digitalWrite(4,HIGH);
+    delay(300);
+    digitalWrite(4,LOW);
+    delay(220);   
+    digitalWrite(5,HIGH);
+    delay(300);
+    digitalWrite(5,LOW);
+    delay(220);
+    digitalWrite(6,HIGH);
+    delay(300);
+    digitalWrite(6,LOW);
+    delay(220);
+    digitalWrite(7,HIGH);
+    delay(300);
+    digitalWrite(7,LOW);
+    delay(220);
+    digitalWrite(8,HIGH);
+    delay(300);
+    digitalWrite(8,LOW);
+    delay(220);   
+    digitalWrite(9,HIGH);
+    delay(300);
+    digitalWrite(9,LOW);
+    delay(220);
+    digitalWrite(10,HIGH);
+    delay(300);
+    digitalWrite(10,LOW);
+    delay(220);
+    digitalWrite(11,HIGH);
+    delay(300);
+    digitalWrite(11,LOW);
+    delay(220);
+    digitalWrite(12,HIGH);
+    delay(300);
+    digitalWrite(12,LOW);
+    delay(220);             
+  }else(){
+    digitalWrite(4,HIGH);
+    delay(300);
+    digitalWrite(4,LOW);
+    delay(220);   
+    digitalWrite(5,HIGH);
+    delay(300);
+    digitalWrite(5,LOW);
+    delay(220);
+    digitalWrite(6,HIGH);
+    delay(300);
+    digitalWrite(6,LOW);
+    delay(220);
+    digitalWrite(7,HIGH);
+    delay(300);
+    digitalWrite(7,LOW);
+    delay(220);
+    digitalWrite(8,HIGH);
+    delay(300);
+    digitalWrite(8,LOW);
+    delay(220);   
+    digitalWrite(9,HIGH);
+    delay(300);
+    digitalWrite(9,LOW);
+    delay(220);
+    digitalWrite(10,HIGH);
+    delay(300);
+    digitalWrite(10,LOW);
+    delay(220);
+    digitalWrite(11,HIGH);
+    delay(300);
+    digitalWrite(11,LOW);
+    delay(220);
+    digitalWrite(12,HIGH);
+    delay(300);
+    digitalWrite(12,LOW);
+    delay(220);   
+    digitalWrite(13,HIGH);
+    delay(300);
+    digitalWrite(13,LOW);
+    delay(220);
+                        
+  }
+  delay(350);
+  noTone(13);
+  digitalWrite(4,LOW);
+  digitalWrite(5,LOW);
+  digitalWrite(6,LOW);
+  digitalWrite(7,LOW);
+  digitalWrite(8,LOW);
+  digitalWrite(9,LOW);
+  digitalWrite(10,LOW);
+  digitalWrite(11,LOW);
+  digitalWrite(12,LOW);
+  digitalWrite(13,LOW);
+  delay(100);
+}
